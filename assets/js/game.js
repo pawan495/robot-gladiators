@@ -206,7 +206,11 @@ var playerInfo = {
 var enemyInfo = [
   {
     name: 'Roborto',
-    attack: randomNumber(10, 14)
+    attack: randomNumber(10, 14),
+    shield:{
+      type: "wood",
+      strength:10
+    }
   },
   {
     name: 'Amy Android',
